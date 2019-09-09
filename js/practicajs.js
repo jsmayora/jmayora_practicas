@@ -162,4 +162,35 @@ $('#celebs tbody tr').click(function(){
 	$(this).toggleClass("sobreVueloCebra");
 });
 
+
+//  Respuesta escondida
+$('.revelacion').hide();
+
+$('<span class="revelado">¡Quiero saber!</span>').insertBefore('.revelacion');
+$('.revelado').click(function() {
+	$(this).hide();
+	$(this).next().fadeIn();
+	/* Act on the event */
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

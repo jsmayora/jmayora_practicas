@@ -5,6 +5,8 @@
 	<title>jquery-practicas</title>
 
 	<?php include_once "heard/header.php"; ?>
+	<!-- css personalizado para practicas -->
+<link rel="stylesheet" type="text/css" href="css/cebras.css">
 </head>
 <body>
 	<div class="container">
@@ -216,10 +218,18 @@
 	</div>
 
 	<div class="row row-6">
-		<div class="col-sm">
-
+		<div class="col-sm-12">
+			<p class="form-group">Respuesta escondida</p>
+		</div>
+		<div id="" class="col-sm-3">
+			<div id="" class="form-group">¿Quien es el asesion del galán</div>
+			<div class="form-group">
+				<span class="revelacion">¡El exnovio de la chica, que no estaba muerto!</span>
+			</div>
 
 		</div>
+
+
 	</div>
 
 	<div class="row row-7">
@@ -233,6 +243,8 @@
 
 
 </div>
-</body>
 <?php include_once 'footer/footer.php'; ?>
+<script type="text/javascript" src="js/practicajs.js"></script>
+</body>
+
 </html>
